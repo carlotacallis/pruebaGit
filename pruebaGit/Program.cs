@@ -11,6 +11,28 @@ namespace pruebaGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hola");
+
+            Coche miChoche = new Coche();
+            miChoche.setRuedas(4);
+
+            Console.WriteLine(miChoche.getRuedas());
+
         }
+    }
+
+    class Coche
+    {
+        public void setRuedas(int ruedas)
+        {
+            this.ruedas = ruedas;
+
+        }
+        public int getRuedas()
+        {
+            return ruedas;
+        }
+
+        private int ruedas;
+        
     }
 }
