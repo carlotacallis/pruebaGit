@@ -22,6 +22,8 @@ namespace pruebaGit
             miMoto.setRuedas(2);
             Console.WriteLine(miMoto.getRuedas());
 
+            Console.WriteLine("haciendo una prueba");
+
         }
     }
 
